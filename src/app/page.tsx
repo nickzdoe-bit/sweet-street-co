@@ -2,6 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
+    <>
     <main className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-orange-500 to-red-600 text-center px-6 py-20">
       <Image
         src="/logo.png"
@@ -9,7 +10,7 @@ export default function Home() {
         width={220}
         height={220}
         priority
-        className="drop-shadow-x1"
+        className="drop-shadow-xl"
       />
       <h1 className="mt-8 text-4xl sm:text-6xl font-bold text-white leading-tight">
         Dirty Sodas. Real Coffee.
@@ -26,5 +27,54 @@ export default function Home() {
         View Menu
       </a>
     </main>
+    <section id="menu" className="bg-white py-20 px-6">
+      <h2 className="text-center text-4xl font-bold text-zinc-900 mb-12">
+        Our Menu
+      </h2>
+      <div className="grid max-w-5xl mx-auto gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="rounded-2xl border border-zinc-200 p-6 shadow-sm">
+          <h3 className="text-xl font-semibold text-zinc-900">Build Your Own</h3>
+          <p className="mt-2 text-zinc-600">$3.50 - $6.00</p>
+        </div>
+        <div className="rounded-2xl border border-zinc-200 p-6 shadow-sm">
+          <h3 className="text-xl font-semibold text-zinc-900">Moonlight Mallow</h3>
+          <p className="mt-2 text-zinc-600">$4.00 - $6.50</p>
+        </div>
+        <div className="rounded-2xl border border-zinc-200 p-6 shadow-sm">
+          <h3 className="text-xl font-semibold text-zinc-900">Vanilla Dream</h3>
+          <p className="mt-2 text-zinc-600">$4.00 - $6.50</p>
+        </div>
+        <div className="rounded-2xl border border-zinc-200 p-6 shadow-sm">
+          <h3 className="text-xl font-semibold text-zinc-900">Island Breeze</h3>
+          <p className="mt-2 text-zinc-600">$6.00 - $9.00</p>
+        </div>
+        <div className="rounded-2xl border border-zinc-200 p-6 shadow-sm">
+          <h3 className="text-xl font-semibold text-zinc-900">Blue Lagoon</h3>
+          <p className="mt-2 text-zinc-600">$6.00 - $9.00</p>
+        </div>
+        <div className="rounded-2xl border border-zinc-200 p-6 shadow-sm">
+          <h3 className="text-xl font-semibold text-zinc-900">The Healer</h3>
+          <p className="mt-2 text-zinc-600">$6.00 - $9.00</p>
+        </div>
+        <div className="rounded-2xl border border-zinc-200 p-6 shadow-sm">
+          <h3 className="text-xl font-semibold text-zinc-900">Firecracker</h3>
+          <p className="mt-2 text-zinc-600">$6.00 - $9.00</p>
+        </div>
+        <div className="rounded-2xl border border-zinc-200 p-6 shadow-sm">
+          <h3 className="text-xl font-semibold text-zinc-900">Build Your Own Croffle</h3>
+          <p className="mt-2 text-zinc-600">$5.00</p>
+        </div>
+        <div className="rounded-2xl border border-zinc-200 p-6 shadow-sm">
+          <h3 className="text-xl font-semibold text-zinc-900">Cookies &amp; Cream Croffle</h3>
+          <p className="mt-2 text-zinc-600">$6.00</p>
+        </div>
+        <div className="rounded-2xl border border-zinc-200 p-6 shadow-sm bg-orange-50">
+          <h3 className="text-xl font-semibold text-zinc-900">The Hustler – BEC Burrito</h3>
+          <p className="mt-2 text-zinc-600">$4.50</p>
+          <p className="mt-1 text-sm text-orange-600 font-medium">Tuesdays &amp; Wednesdays only</p>
+        </div>
+      </div>
+    </section>
+    </>
   );
 }
