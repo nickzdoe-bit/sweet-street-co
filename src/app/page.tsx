@@ -86,6 +86,26 @@ export default function Home() {
         It&apos;s a small way of saying her story mattered, one cup at a time.
       </p>
     </section>
+
+    <section className="bg-orange-50 py-20 px-6">
+      <h2 className="text-center text-4xl font-bold text-zinc-900 mb-12">
+        Community Discounts
+      </h2>
+      <div className="grid max-w-4xl mx-auto gap-6 sm:grid-cols-3">
+        <div className="rounded-2xl bg-white p-8 text-center shadow-sm">
+          <h3 className="text-lg font-semibold text-zinc-900">Students</h3>
+          <p className="mt-3 text-3xl font-bold text-red-600">$1 Off</p>
+        </div>
+        <div className="rounded-2xl bg-white p-8 text-center shadow-sm">
+          <h3 className="text-lg font-semibold text-zinc-900">Teachers</h3>
+          <p className="mt-3 text-3xl font-bold text-red-600">Free Delivery</p>
+        </div>
+        <div className="rounded-2xl bg-white p-8 text-center shadow-sm">
+          <h3 className="text-lg font-semibold text-zinc-900">First Responders &amp; Military</h3>
+          <p className="mt-3 text-3xl font-bold text-red-600">15% Off</p>
+        </div>
+      </div>
+    </section>
     </>
   );
 }
