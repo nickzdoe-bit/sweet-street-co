@@ -105,7 +105,47 @@ export default function Home() {
           <p className="mt-3 text-3xl font-bold text-red-600">15% Off</p>
         </div>
       </div>
+      </section>
+
+    <section className="bg-white py-20 px-6 text-center">
+      <h2 className="text-4xl font-bold text-zinc-900 mb-6">
+        Visit Us
+      </h2>
+      <p className="text-lg text-zinc-600">
+        Next to PD on Carl Hubbell Blvd, Meeker, OK
+      </p>
+      <p className="mt-2 text-lg text-zinc-600">
+        Open daily — check our socials for hours
+      </p>
+      <div className="mt-8 flex justify-center gap-6 text-red-600 font-semibold">
+          <a
+          href="https://www.facebook.com/SweetStreetCoLLC"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:underline">
+          Facebook
+        </a>
+        <a
+        href="https://www.instagram.com/sweetstreetco.ok"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="hover:underline">
+
+          Instagram
+        </a>
+
+      </div>
     </section>
+
+    <footer className="bg-zinc-900 py-8 px-6 text-center text-sm text-zinc-400">
+      <p>© 2026 Sweet Street Co. All rights reserved.</p>
+      <p className="mt-2">
+        Site designed by{" "}
+        <a href="#" className="text-orange-400 hover:underline">
+          Elevated Admin Pro
+        </a>
+      </p>
+    </footer>
     </>
   );
 }
