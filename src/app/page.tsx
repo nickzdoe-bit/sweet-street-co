@@ -117,6 +117,17 @@ export default function Home() {
       <p className="mt-2 text-lg text-zinc-600">
         Open daily — check our socials for hours
       </p>
+      <div className="mt-8 max-w-2xl mx-auto rounded-2xl overflow-hidden shadow-lg">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3095.8008116816377!2d-96.895217!3d35.50296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b3c5b804023ba9%3A0x7050afec74e93e94!2sSweet%20Street%20Co.%20LLC!5e1!3m2!1sen!2sus!4v1785507949030!5m2!1sen!2sus"
+          width="100%"
+          height="350"
+          style={{ border: 0 }}
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="strict-origin-when-cross-origin"
+          ></iframe>
+      </div>
       <div className="mt-8 flex justify-center gap-6 text-red-600 font-semibold">
           <a
           href="https://www.facebook.com/SweetStreetCoLLC"
