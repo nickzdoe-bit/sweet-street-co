@@ -140,10 +140,7 @@ export default function Home() {
     <footer className="bg-zinc-900 py-8 px-6 text-center text-sm text-zinc-400">
       <p>© 2026 Sweet Street Co. All rights reserved.</p>
       <p className="mt-2">
-        Site designed by{" "}
-        <a href="#" className="text-orange-400 hover:underline">
-          Elevated Admin Pro
-        </a>
+        Site designed by Nick Doe, Elevated Admin Pro LLC
       </p>
     </footer>
     </>
