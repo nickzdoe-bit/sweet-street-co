@@ -71,12 +71,12 @@ export default function Home() {
         <div className="rounded-2xl border border-zinc-200 p-6 shadow-sm bg-orange-50">
           <h3 className="text-xl font-semibold text-zinc-900">The Hustler – BEC Burrito</h3>
           <p className="mt-2 text-zinc-600">$4.50</p>
-          <p className="mt-1 text-sm text-orange-600 font-medium">Tuesdays &amp; Wednesdays only</p>
+          <p className="mt-1 text-sm text-orange-600 font-medium">Tuesdays &amp; Thursdays only</p>
         </div>
       </div>
     </section>
 
-    <section className="bg-zinc-900 py-20 px-6 text-center">
+    <section id="story" className="bg-zinc-900 py-20 px-6 text-center">
       <h2 className="text-4xl font-bold text-white mb-6">
         More Than a Drink
       </h2>
@@ -107,7 +107,7 @@ export default function Home() {
       </div>
       </section>
 
-    <section className="bg-white py-20 px-6 text-center">
+    <section id="visit" className="bg-white py-20 px-6 text-center">
       <h2 className="text-4xl font-bold text-zinc-900 mb-6">
         Visit Us
       </h2>
