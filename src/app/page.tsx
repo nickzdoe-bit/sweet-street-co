@@ -75,6 +75,17 @@ export default function Home() {
         </div>
       </div>
     </section>
+
+    <section className="bg-zinc-900 py-20 px-6 text-center">
+      <h2 className="text-4xl font-bold text-white mb-6">
+        More Than a Drink
+      </h2>
+      <p className="max-w-2xl mx-auto text-lg text-zinc-300 leading-relaxed">
+        Every dirty soda, every coffee, every croffle on this menu carries a name - 
+        because every drink at Sweet Street Co honors a woman who changed the world.
+        It&apos;s a small way of saying her story mattered, one cup at a time.
+      </p>
+    </section>
     </>
   );
 }
