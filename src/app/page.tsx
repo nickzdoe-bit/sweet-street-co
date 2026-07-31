@@ -32,43 +32,43 @@ export default function Home() {
         Our Menu
       </h2>
       <div className="grid max-w-5xl mx-auto gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        <div className="rounded-2xl border border-zinc-200 p-6 shadow-sm">
+        <div className="rounded-2xl border border-zinc-200 p-6 shadow-sm transition hover:shadow-lg hover:-translate-y-1">
           <h3 className="text-xl font-semibold text-zinc-900">Build Your Own</h3>
           <p className="mt-2 text-zinc-600">$3.50 - $6.00</p>
         </div>
-        <div className="rounded-2xl border border-zinc-200 p-6 shadow-sm">
+        <div className="rounded-2xl border border-zinc-200 p-6 shadow-sm transition hover:shadow-lg hover:-translate-y-1">
           <h3 className="text-xl font-semibold text-zinc-900">Moonlight Mallow</h3>
           <p className="mt-2 text-zinc-600">$4.00 - $6.50</p>
         </div>
-        <div className="rounded-2xl border border-zinc-200 p-6 shadow-sm">
+        <div className="rounded-2xl border border-zinc-200 p-6 shadow-sm transition hover:shadow-lg hover:-translate-y-1">
           <h3 className="text-xl font-semibold text-zinc-900">Vanilla Dream</h3>
           <p className="mt-2 text-zinc-600">$4.00 - $6.50</p>
         </div>
-        <div className="rounded-2xl border border-zinc-200 p-6 shadow-sm">
+        <div className="rounded-2xl border border-zinc-200 p-6 shadow-sm transition hover:shadow-lg hover:-translate-y-1">
           <h3 className="text-xl font-semibold text-zinc-900">Island Breeze</h3>
           <p className="mt-2 text-zinc-600">$6.00 - $9.00</p>
         </div>
-        <div className="rounded-2xl border border-zinc-200 p-6 shadow-sm">
+        <div className="rounded-2xl border border-zinc-200 p-6 shadow-sm transition hover:shadow-lg hover:-translate-y-1">
           <h3 className="text-xl font-semibold text-zinc-900">Blue Lagoon</h3>
           <p className="mt-2 text-zinc-600">$6.00 - $9.00</p>
         </div>
-        <div className="rounded-2xl border border-zinc-200 p-6 shadow-sm">
+        <div className="rounded-2xl border border-zinc-200 p-6 shadow-sm transition hover:shadow-lg hover:-translate-y-1">
           <h3 className="text-xl font-semibold text-zinc-900">The Healer</h3>
           <p className="mt-2 text-zinc-600">$6.00 - $9.00</p>
         </div>
-        <div className="rounded-2xl border border-zinc-200 p-6 shadow-sm">
+        <div className="rounded-2xl border border-zinc-200 p-6 shadow-sm transition hover:shadow-lg hover:-translate-y-1">
           <h3 className="text-xl font-semibold text-zinc-900">Firecracker</h3>
           <p className="mt-2 text-zinc-600">$6.00 - $9.00</p>
         </div>
-        <div className="rounded-2xl border border-zinc-200 p-6 shadow-sm">
+        <div className="rounded-2xl border border-zinc-200 p-6 shadow-sm transition hover:shadow-lg hover:-translate-y-1">
           <h3 className="text-xl font-semibold text-zinc-900">Build Your Own Croffle</h3>
           <p className="mt-2 text-zinc-600">$5.00</p>
         </div>
-        <div className="rounded-2xl border border-zinc-200 p-6 shadow-sm">
+        <div className="rounded-2xl border border-zinc-200 p-6 shadow-sm transition hover:shadow-lg hover:-translate-y-1">
           <h3 className="text-xl font-semibold text-zinc-900">Cookies &amp; Cream Croffle</h3>
           <p className="mt-2 text-zinc-600">$6.00</p>
         </div>
-        <div className="rounded-2xl border border-zinc-200 p-6 shadow-sm bg-orange-50">
+        <div className="rounded-2xl border border-zinc-200 p-6 shadow-sm bg-orange-50 transition hover:shadow-lg hover:-translate-y-1">
           <h3 className="text-xl font-semibold text-zinc-900">The Hustler – BEC Burrito</h3>
           <p className="mt-2 text-zinc-600">$4.50</p>
           <p className="mt-1 text-sm text-orange-600 font-medium">Tuesdays &amp; Thursdays only</p>
@@ -92,15 +92,15 @@ export default function Home() {
         Community Discounts
       </h2>
       <div className="grid max-w-4xl mx-auto gap-6 sm:grid-cols-3">
-        <div className="rounded-2xl bg-white p-8 text-center shadow-sm">
+        <div className="rounded-2xl bg-white p-8 text-center shadow-sm transition hover:shadow-lg hover:-translate-y-1">
           <h3 className="text-lg font-semibold text-zinc-900">Students</h3>
           <p className="mt-3 text-3xl font-bold text-red-600">$1 Off</p>
         </div>
-        <div className="rounded-2xl bg-white p-8 text-center shadow-sm">
+        <div className="rounded-2xl bg-white p-8 text-center shadow-sm transition hover:shadow-lg hover:-translate-y-1">
           <h3 className="text-lg font-semibold text-zinc-900">Teachers</h3>
           <p className="mt-3 text-3xl font-bold text-red-600">Free Delivery</p>
         </div>
-        <div className="rounded-2xl bg-white p-8 text-center shadow-sm">
+        <div className="rounded-2xl bg-white p-8 text-center shadow-sm transition hover:shadow-lg hover:-translate-y-1">
           <h3 className="text-lg font-semibold text-zinc-900">First Responders &amp; Military</h3>
           <p className="mt-3 text-3xl font-bold text-red-600">15% Off</p>
         </div>
